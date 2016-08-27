@@ -40,7 +40,7 @@ public class UserDatabaseHelperFunction
     public void open()
     {
         database=dbHelper.getWritableDatabase();
-        Log.i(LOG_TAG," Database Opened");
+        Log.i(LOG_TAG," Database Opened ");
     }
 
     //closing the database for writing
