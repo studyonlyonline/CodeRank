@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:background="@drawable/border_layout">
+
+    <TextView
+        android:id="@+id/codechef_fragment_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/codechef_color"
+        android:textColor="@color/website_text_color"
+        android:text="@string/codechef"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Ranks"/>
+
+            <TextView
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:text="Global"/>
+
+
+            <TextView
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:text="Country"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_marginBottom="10dp"/>
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Long"/>
+
+            <TextView
+                android:id="@+id/longGlobal_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Global"/>
+
+            <TextView
+                android:id="@+id/longCountry_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Local"/>
+
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Short"/>
+
+            <TextView
+                android:id="@+id/shortGlobal_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Global"/>
+
+            <TextView
+                android:id="@+id/shortCountry_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Local"/>
+
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Lunch Time"/>
+
+            <TextView
+                android:id="@+id/ltimeGlobal_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Global"/>
+
+            <TextView
+                android:id="@+id/ltimeCountry_textView"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                tools:text="Local"/>
+
+
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/longRatingLabel"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Long Rating"
+                />
+
+            <TextView
+                android:id="@+id/longRating_textView"
+                android:textSize="20sp"
+                tools:text="Long Rating"/>
+
+        </TableRow>
+
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/shortRatingLabel"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Short Rating"
+                />
+
+
+            <TextView
+                android:id="@+id/shortRating_textView"
+                android:textSize="20sp"
+                tools:text="Rating"/>
+
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/ltimeRatingLabel"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Short Rating"
+                />
+
+            <TextView
+                android:id="@+id/ltimeRating_textView"
+                android:textSize="20sp"
+                tools:text="Rating"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_indicator_codechef"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

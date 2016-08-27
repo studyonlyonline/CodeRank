@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/update_user_listItem"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/update_user_listItem"/>
+
+    <item
+        android:id="@+id/delete_user_listItem"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete_user_listItem"
+        />
+
+
+
+</menu>

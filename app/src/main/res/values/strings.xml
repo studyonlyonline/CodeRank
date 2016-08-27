@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">CodeRank</string>
+    <string name="no_data_exist">Sorry could not fetch the data.Check the handle</string>
+    <string name="no_internet_connectivity">No Internet Connection</string>
+    <string name="submit">Submit</string>
+
+    <string name="codechef">Codechef</string>
+    <string name="codeforces">CodeForces</string>
+    <string name="spoj">Spoj</string>
+    <string name="hackerRank">HackerRank</string>
+    <string name="hackerEarth">HackerEarth</string>
+
+    <!--Home Activity-->
+    <string name="add_friend">Add Friend</string>
+    <string name="Name">Name</string>
+    <string name="delete_user_listItem">Delete User</string>
+    <string name="update_user_listItem">Update User</string>
+
+    <!--AddFriend activity-->
+    <string name="codechef_handle">Codechef Handle</string>
+    <string name="codeforces_handle">Codeforces Handle</string>
+    <string name="spoj_handle">Spoj Handle</string>
+    <string name="hackerearth_handle">HackerEarth Handle</string>
+    <string name="hackerrank_handle">HackerRank Handle</string>
+
+    <!--DetailUserActivity-->
+    <string name="codechef_username">Codechef Username</string>
+
+
+
+</resources>
